@@ -12,8 +12,6 @@ public class Main {
         // Start an infinite loop to keep prompting for registration until the user decides to exit
         while(true) {
 
-//            System.out.print("Enter Your Full name: ");
-//            Student.fullName = scanner.nextLine().toUpperCase();
             while (true) {
                 try {
                     System.out.print("Enter Your Full name: ");
