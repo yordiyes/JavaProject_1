@@ -104,7 +104,7 @@ public class Main {
 
             while (true) {
                 try {
-                    System.out.print("Enter your Modality: ");
+                    System.out.print("Enter your Modality:(Regular/Extension) ");
                     Student.modality = scanner.nextLine();
                     if (Student.modality.matches("[a-zA-Z+' ']+")) {
                         Student.modality = Student.fullName;
