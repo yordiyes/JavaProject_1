@@ -90,7 +90,7 @@ public class Main {
                     System.out.print("Enter your Gender:(male/female)");
                     Student.gender = scanner.nextLine().toUpperCase();
                     if (Student.gender.matches("[a-zA-Z+' ']+")) {
-                        Student.gender = Student.fullName;
+                        Student.gender = Student.gender;
                         break;
                     } else {
                         throw new InputMismatchException();
@@ -107,7 +107,7 @@ public class Main {
                     System.out.print("Enter your Modality:(Regular/Extension) ");
                     Student.modality = scanner.nextLine();
                     if (Student.modality.matches("[a-zA-Z+' ']+")) {
-                        Student.modality = Student.fullName;
+                        Student.modality = Student.modality;
                         break;
                     } else {
                         throw new InputMismatchException();
