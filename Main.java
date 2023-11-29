@@ -87,7 +87,7 @@ public class Main {
 
             while (true) {
                 try {
-                    System.out.print("Enter your Gender: ");
+                    System.out.print("Enter your Gender:(male/female)");
                     Student.gender = scanner.nextLine().toUpperCase();
                     if (Student.gender.matches("[a-zA-Z+' ']+")) {
                         Student.gender = Student.fullName;
