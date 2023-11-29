@@ -54,7 +54,7 @@ public class Main {
                     System.out.print("Enter Your Department: ");
                     Student.department = scanner.nextLine().toUpperCase();
                     if (Student.department.matches("[a-zA-Z+' ']+")) {
-                        Student.department = Student.fullName;
+                        Student.department = Student.department;
                         break;
                     } else {
                         throw new InputMismatchException();
