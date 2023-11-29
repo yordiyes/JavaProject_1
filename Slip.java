@@ -19,7 +19,7 @@ public class Slip {
         System.out.println("......................................................................................................................................");
         System.out.println("                                             Department Of " + Student.department +"                                                  ");
         System.out.println("..................................................................................................................................... ");
-        System.out.println("                  First-name: " + Student.fullName + "         Department"+ Student.department+"       ID-Number: " + Student.studentId);
+        System.out.println("                  First-name: " + Student.fullName + "       Department: "+ Student.department+"       ID-Number: " + Student.studentId);
         System.out.println("......................................................................................................................................");
         System.out.println("                    Modality : " + Student.modality + "    "+"Sex: " + Student.gender + "               "+"Year: "+ Student.studentYear);
         System.out.println("......................................................................................................................................");
